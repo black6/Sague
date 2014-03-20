@@ -69,6 +69,8 @@
 
 -(void)createDownloadTask
 {
+    NSLog(@"HelloÇ");
+    
     NSArray *arURLs = @[@"http://p1.pichost.me/i/45/1686211.jpg",
                         @"http://p1.pichost.me/i/45/1684453.jpg",
                         @"http://p1.pichost.me/i/45/1685303.jpg",
