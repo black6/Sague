@@ -70,9 +70,9 @@
 -(void)createDownloadTask
 {
     NSLog(@"Hello");
-    
+    UIColor *color = [UIColor colorWithRed:0.814 green:1.000 blue:0.526 alpha:1.000];
     NSUInteger iCounter = 0;
-    
+    NSString *s = @"بسم الله الرحمن الرحيم";
     NSArray *arURLs = @[@"http://p1.pichost.me/i/45/1686211.jpg",
                         @"http://p1.pichost.me/i/45/1684453.jpg",
                         @"http://p1.pichost.me/i/45/1685303.jpg",
